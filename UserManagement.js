@@ -1,5 +1,4 @@
 const {publicPostAPI, publicPutAPI, privateGetAPI, privatePutAPI} = require("./fetchAPI")
-const { __esModule } = require("node-fetch")
 const baseURL = 'http://192.168.43.85:3000/api/v1'
 
 class publicHTTPAPI {
